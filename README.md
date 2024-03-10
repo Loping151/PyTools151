@@ -11,7 +11,7 @@ Code here are used to analysis, for example, to measure the runtime using a time
 <details>
 <summary>timer</summary>
 
-Include a `Timer` class that simulates a stopwatch to measure the runtime of your code. It supports `lap` and `reset` operations. You can log the time each time you lap or sum up the time spent in a certain interval inside a loop. See examples in the code.
+Include a `Timer` class that simulates a stopwatch to measure the runtime of your code. It supports `lap` and `refresh` operations. You can log the time each time you lap or sum up the time spent in a certain interval inside a loop. See examples in the code.
 
 </details>
 
