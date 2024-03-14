@@ -38,4 +38,11 @@ Include `video_slice` function to cut video with a certain time interval at a ce
 
 ## Template
 
-Template code like argparse, logging, etc.
+Template code like cerain tasks, for example, run python code parallelly.
+
+<details>
+<summary>parallel</summary>
+
+Include `parallel_run` function to run a function parallelly with a certain number of processes. This function is a good replacement for `for-in-range` if each iteration is independent and time-consuming.
+
+</details>
