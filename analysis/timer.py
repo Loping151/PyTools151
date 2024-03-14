@@ -8,6 +8,7 @@
 # --------------------------------------------------------------------------------
 import time
 
+
 class Timer:
     def __init__(self, auto_start=True, log_file="time.log", time_func=time.perf_counter):
         """
@@ -95,6 +96,7 @@ class Timer:
         self.last_time = None
         self.interval_time = {}
         self.interval_pool = {}
+
 
 if __name__ == "__main__":
     import numpy as np

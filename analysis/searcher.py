@@ -5,6 +5,7 @@ import traceback
 import string
 import random
 
+
 def stacksearch(func):
     def wrapper(*args, **kwargs):
         try:

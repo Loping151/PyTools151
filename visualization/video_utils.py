@@ -10,16 +10,17 @@ import cv2
 import os
 import numpy as np
 
+
 def video_slice(video_path, output_path='./frames', start_time="00:00", end_time="00:10", target_frame_rate=-1):
     """
     Extracts frames from a video file at a given frame rate.
     
     Args:
-    video_path (str): Path to the video file.
-    output_path (str): Path to the directory where the frames will be saved.
-    start_time (str): Start time of the slice in the format "MM:SS". Set to -1 to start from the beginning.
-    end_time (str): End time of the slice in the format "MM:SS". Set to -1 to end at the end of the video.
-    target_frame_rate (int): Frame rate of the output images. Set to -1 to use the frame rate of the video.
+        video_path (str): Path to the video file.
+        output_path (str): Path to the directory where the frames will be saved.
+        start_time (str): Start time of the slice in the format "MM:SS". Set to -1 to start from the beginning.
+        end_time (str): End time of the slice in the format "MM:SS". Set to -1 to end at the end of the video.
+        target_frame_rate (int): Frame rate of the output images. Set to -1 to use the frame rate of the video.
     """
     
     if not os.path.exists(output_path):

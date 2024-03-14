@@ -21,6 +21,8 @@ Include a `Timer` class that simulates a stopwatch to measure the runtime of you
 
 Include two funny wrappers that catch your error messages and search online through Baidu or StackOverflow.
 
+Added another funny wrappers `aisearch151` that automatically use AI 151 to search online to debug. 
+
 </details>
 
 
@@ -35,6 +37,12 @@ Include `video_slice` function to cut video with a certain time interval at a ce
 
 </details>
 
+<details>
+<summary>image_utils</summary>
+
+Include `crop_image` function to crop images with a certain size and save as a video.
+
+</details>
 
 ## Template
 
@@ -44,5 +52,14 @@ Template code like cerain tasks, for example, run python code parallelly.
 <summary>parallel</summary>
 
 Include `parallel_run` function to run a function parallelly with a certain number of processes. This function is a good replacement for `for-in-range` if each iteration is independent and time-consuming.
+
+</details>
+
+<details>
+<summary>file_helper</summary>
+
+Include `add_to_zip` function to filter and add files to a zip file.
+
+Include `walk_folder` function to walk through a folder and return all files with a certain extension. 
 
 </details>
