@@ -17,6 +17,8 @@ def video_slice(video_path, output_path='./frames', start_time="00:00", end_time
     if not os.path.exists(output_path):
         os.makedirs(output_path)
 
+    cap = cv2.VideoCapture(video_path)
+
     fps = cap.get(cv2.CAP_PROP_FPS)
     if target_frame_rate == -1:
         target_frame_rate = fps
@@ -29,9 +31,6 @@ def video_slice(video_path, output_path='./frames', start_time="00:00", end_time
         end_time_seconds = np.floor(cap.get(cv2.CAP_PROP_FRAME_COUNT) / fps)
     else:
         end_time_seconds = int(end_time.split(':')[0]) * 60 + int(end_time.split(':')[1])
-
-    cap = cv2.VideoCapture(video_path)
-
 
     start_frame_number = int(start_time_seconds * fps)
     end_frame_number = int(end_time_seconds * fps)
