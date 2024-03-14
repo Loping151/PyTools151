@@ -28,6 +28,14 @@ Include two funny wrappers that catch your error messages and search online thro
 
 Code here are used to visualize, for example, make videos from indexed images.
 
+<details>
+<summary>video_utils</summary>
+
+Include `video_slice` function to cut video with a certain time interval at a certain fps, and save as frame images.
+
+</details>
+
+
 ## Template
 
 Template code like argparse, logging, etc.
