@@ -1,3 +1,11 @@
+# --------------------------------------------------------------------------------
+# Author: Loping151
+# GitHub: https://github.com/Loping151/pytools151
+# Description: This repository contains a collection of Python tools designed to
+#              enhance productivity and simplify various tasks. The code is open
+#              for use and can be freely used, modified, and distributed.
+# License: MIT License - Feel free to use and modify the code as you wish.
+# --------------------------------------------------------------------------------
 import cv2
 import os
 import numpy as np

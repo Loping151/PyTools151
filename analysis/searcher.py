@@ -1,3 +1,5 @@
+# This code is for fun only!
+
 import webbrowser
 import traceback
 
